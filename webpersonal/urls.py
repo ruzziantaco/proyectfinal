@@ -25,6 +25,7 @@ urlpatterns = [
     path('', articulos_views.home, name = "home"),
     path('directorio/', core_views.directorio, name="directorio"),
     path('bolsa/', core_views.bolsa, name="bolsa-de-trabajo"),
+    path('registro/', core_views.registro, name='registro'),
 ]
 
 
